@@ -61,23 +61,6 @@
         .video-link:hover {
             background-color: #0066cc;
         }
-
-        /* Added styling for Excel section */
-        .download-btn {
-            display: inline-block;
-            background-color: #004080;
-            color: #fff;
-            padding: 12px 20px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .excel-chart {
-            width: 60%;
-            height: auto;
-            border-radius: 9px;
-        }
     </style>
 </head>
 <body>
@@ -104,7 +87,7 @@
        <b>Customer Benefit:</b> Users experience faster problem resolution and improved satisfaction.</p>
 
     <h2>Vision</h2>
-    <p>Our vision is to build a proactive and innovative help desk that anticipates user needs, integrates advanced tools, and continuously evolves to deliver world-class IT support.</p>
+    <p>Our vision is to build a proactive and innovative help desk that anticipitates user needs, integrates advanced tools, and continuously evolves to deliver world-class IT support.</p>
 
     <hr>
 
@@ -152,16 +135,27 @@
 
     <hr>
 
-    <!-- ⭐ NEW SECTION INSERTED HERE (Before Open to Feedback) ⭐ -->
-    <h2>Monthly SMART Goal Report</h2>
-    <p>Below is the Excel file containing monthly SMART goal data along with a generated bar graph comparing goal vs actual values.</p>
+    <!-- ----------------------------------------------- -->
+    <!--    INSERTED: MONTHLY SMART GOALS REPORT CHART   -->
+    <!-- ----------------------------------------------- -->
 
-    <a class="download-btn" href="SMART Goals Report Chart.xlsx" download>📥 Download Excel File</a>
+    <h2>Monthly SMART Goals Report</h2>
+    <p>This chart shows the monthly performance comparison for our 5 SMART goals, displaying Goal vs Actual values.</p>
 
-    <h3>Bar Graph Preview</h3>
-    <img class="excel-chart" src="excel_chart.PNG" alt="SMART Goals Graph">
+    <!-- Excel Chart Image -->
+    <img src="excel_chart.png" alt="SMART Goals Excel Chart" 
+         style="width:80%; border-radius:12px; display:block; margin:20px auto;">
+
+    <!-- Download Link for Excel File -->
+    <p style="text-align:center;">
+        <a href="SMART_Goals_Report_Chart.xlsx" download
+           style="background:#004080; color:#fff; padding:12px 25px; 
+           border-radius:8px; text-decoration:none; font-weight:bold;">
+            📊 Download SMART Goals Excel Report
+        </a>
+    </p>
+
     <hr>
-    <!-- END NEW SECTION -->
 
     <h2>Open to Feedback</h2>
     <p>This plan encourages feedback from both end users and support staff to ensure continuous improvement and operational excellence throughout the 2025 fiscal year.</p>
@@ -178,9 +172,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
